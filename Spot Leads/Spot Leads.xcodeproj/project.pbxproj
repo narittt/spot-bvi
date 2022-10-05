@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4202DB0428917B3E00245E2C /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4202DB0228917B3E00245E2C /* SpeechRecognizer.swift */; };
+		420649D0289D676200C1E469 /* MicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420649CF289D676200C1E469 /* MicView.swift */; };
+		420649D2289D935D00C1E469 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420649D1289D935D00C1E469 /* TranscriptView.swift */; };
+		420649D428A164DF00C1E469 /* EStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420649D328A164DF00C1E469 /* EStopView.swift */; };
+		420649D628B0221200C1E469 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420649D528B0221200C1E469 /* Command.swift */; };
+		42DB2F802890299200820CD3 /* Spot_LeadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2F7F2890299200820CD3 /* Spot_LeadsApp.swift */; };
+		42DB2F822890299200820CD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2F812890299200820CD3 /* ContentView.swift */; };
+		42DB2F842890299500820CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB2F832890299500820CD3 /* Assets.xcassets */; };
+		42DB2F872890299500820CD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB2F862890299500820CD3 /* Preview Assets.xcassets */; };
+		42DB2F912890299500820CD3 /* Spot_LeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2F902890299500820CD3 /* Spot_LeadsTests.swift */; };
+		42DB2F9B2890299500820CD3 /* Spot_LeadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2F9A2890299500820CD3 /* Spot_LeadsUITests.swift */; };
+		42DB2F9D2890299500820CD3 /* Spot_LeadsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2F9C2890299500820CD3 /* Spot_LeadsUITestsLaunchTests.swift */; };
+		42DB2FB128905FA600820CD3 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2FB028905FA600820CD3 /* NetworkView.swift */; };
+		42DB2FB32890ABC100820CD3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB2FB22890ABC100820CD3 /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DB2F8D2890299500820CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DB2F742890299200820CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DB2F7B2890299200820CD3;
+			remoteInfo = "Spot Leads";
+		};
+		42DB2F972890299500820CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DB2F742890299200820CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DB2F7B2890299200820CD3;
+			remoteInfo = "Spot Leads";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4202DB0228917B3E00245E2C /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		420649CF289D676200C1E469 /* MicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicView.swift; sourceTree = "<group>"; };
+		420649D1289D935D00C1E469 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		420649D328A164DF00C1E469 /* EStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EStopView.swift; sourceTree = "<group>"; };
+		420649D528B0221200C1E469 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		42DB2F7C2890299200820CD3 /* Spot Leads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spot Leads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB2F7F2890299200820CD3 /* Spot_LeadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot_LeadsApp.swift; sourceTree = "<group>"; };
+		42DB2F812890299200820CD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42DB2F832890299500820CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DB2F862890299500820CD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42DB2F8C2890299500820CD3 /* Spot LeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spot LeadsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB2F902890299500820CD3 /* Spot_LeadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot_LeadsTests.swift; sourceTree = "<group>"; };
+		42DB2F962890299500820CD3 /* Spot LeadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spot LeadsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB2F9A2890299500820CD3 /* Spot_LeadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot_LeadsUITests.swift; sourceTree = "<group>"; };
+		42DB2F9C2890299500820CD3 /* Spot_LeadsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot_LeadsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42DB2FB028905FA600820CD3 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		42DB2FB22890ABC100820CD3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DB2F792890299200820CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F892890299500820CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F932890299500820CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DB2F732890299200820CD3 = {
+			isa = PBXGroup;
+			children = (
+				42DB2F7E2890299200820CD3 /* Spot Leads */,
+				42DB2F8F2890299500820CD3 /* Spot LeadsTests */,
+				42DB2F992890299500820CD3 /* Spot LeadsUITests */,
+				42DB2F7D2890299200820CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42DB2F7D2890299200820CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42DB2F7C2890299200820CD3 /* Spot Leads.app */,
+				42DB2F8C2890299500820CD3 /* Spot LeadsTests.xctest */,
+				42DB2F962890299500820CD3 /* Spot LeadsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DB2F7E2890299200820CD3 /* Spot Leads */ = {
+			isa = PBXGroup;
+			children = (
+				42DB2FA928905C6100820CD3 /* Models */,
+				42DB2F7F2890299200820CD3 /* Spot_LeadsApp.swift */,
+				42DB2FB22890ABC100820CD3 /* MenuView.swift */,
+				42DB2F812890299200820CD3 /* ContentView.swift */,
+				420649D1289D935D00C1E469 /* TranscriptView.swift */,
+				420649CF289D676200C1E469 /* MicView.swift */,
+				420649D328A164DF00C1E469 /* EStopView.swift */,
+				42DB2FB028905FA600820CD3 /* NetworkView.swift */,
+				42DB2F832890299500820CD3 /* Assets.xcassets */,
+				42DB2F852890299500820CD3 /* Preview Content */,
+			);
+			path = "Spot Leads";
+			sourceTree = "<group>";
+		};
+		42DB2F852890299500820CD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42DB2F862890299500820CD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42DB2F8F2890299500820CD3 /* Spot LeadsTests */ = {
+			isa = PBXGroup;
+			children = (
+				42DB2F902890299500820CD3 /* Spot_LeadsTests.swift */,
+			);
+			path = "Spot LeadsTests";
+			sourceTree = "<group>";
+		};
+		42DB2F992890299500820CD3 /* Spot LeadsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42DB2F9A2890299500820CD3 /* Spot_LeadsUITests.swift */,
+				42DB2F9C2890299500820CD3 /* Spot_LeadsUITestsLaunchTests.swift */,
+			);
+			path = "Spot LeadsUITests";
+			sourceTree = "<group>";
+		};
+		42DB2FA928905C6100820CD3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				420649D528B0221200C1E469 /* Command.swift */,
+				4202DB0228917B3E00245E2C /* SpeechRecognizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42DB2F7B2890299200820CD3 /* Spot Leads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB2FA02890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot Leads" */;
+			buildPhases = (
+				42DB2F782890299200820CD3 /* Sources */,
+				42DB2F792890299200820CD3 /* Frameworks */,
+				42DB2F7A2890299200820CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spot Leads";
+			productName = "Spot Leads";
+			productReference = 42DB2F7C2890299200820CD3 /* Spot Leads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42DB2F8B2890299500820CD3 /* Spot LeadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB2FA32890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot LeadsTests" */;
+			buildPhases = (
+				42DB2F882890299500820CD3 /* Sources */,
+				42DB2F892890299500820CD3 /* Frameworks */,
+				42DB2F8A2890299500820CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DB2F8E2890299500820CD3 /* PBXTargetDependency */,
+			);
+			name = "Spot LeadsTests";
+			productName = "Spot LeadsTests";
+			productReference = 42DB2F8C2890299500820CD3 /* Spot LeadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42DB2F952890299500820CD3 /* Spot LeadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DB2FA62890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot LeadsUITests" */;
+			buildPhases = (
+				42DB2F922890299500820CD3 /* Sources */,
+				42DB2F932890299500820CD3 /* Frameworks */,
+				42DB2F942890299500820CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DB2F982890299500820CD3 /* PBXTargetDependency */,
+			);
+			name = "Spot LeadsUITests";
+			productName = "Spot LeadsUITests";
+			productReference = 42DB2F962890299500820CD3 /* Spot LeadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42DB2F742890299200820CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					42DB2F7B2890299200820CD3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					42DB2F8B2890299500820CD3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 42DB2F7B2890299200820CD3;
+					};
+					42DB2F952890299500820CD3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 42DB2F7B2890299200820CD3;
+					};
+				};
+			};
+			buildConfigurationList = 42DB2F772890299200820CD3 /* Build configuration list for PBXProject "Spot Leads" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42DB2F732890299200820CD3;
+			productRefGroup = 42DB2F7D2890299200820CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DB2F7B2890299200820CD3 /* Spot Leads */,
+				42DB2F8B2890299500820CD3 /* Spot LeadsTests */,
+				42DB2F952890299500820CD3 /* Spot LeadsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42DB2F7A2890299200820CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB2F872890299500820CD3 /* Preview Assets.xcassets in Resources */,
+				42DB2F842890299500820CD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F8A2890299500820CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F942890299500820CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42DB2F782890299200820CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB2FB32890ABC100820CD3 /* MenuView.swift in Sources */,
+				420649D2289D935D00C1E469 /* TranscriptView.swift in Sources */,
+				42DB2F822890299200820CD3 /* ContentView.swift in Sources */,
+				420649D628B0221200C1E469 /* Command.swift in Sources */,
+				42DB2FB128905FA600820CD3 /* NetworkView.swift in Sources */,
+				420649D0289D676200C1E469 /* MicView.swift in Sources */,
+				42DB2F802890299200820CD3 /* Spot_LeadsApp.swift in Sources */,
+				420649D428A164DF00C1E469 /* EStopView.swift in Sources */,
+				4202DB0428917B3E00245E2C /* SpeechRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F882890299500820CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB2F912890299500820CD3 /* Spot_LeadsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DB2F922890299500820CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DB2F9D2890299500820CD3 /* Spot_LeadsUITestsLaunchTests.swift in Sources */,
+				42DB2F9B2890299500820CD3 /* Spot_LeadsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42DB2F8E2890299500820CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DB2F7B2890299200820CD3 /* Spot Leads */;
+			targetProxy = 42DB2F8D2890299500820CD3 /* PBXContainerItemProxy */;
+		};
+		42DB2F982890299500820CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DB2F7B2890299200820CD3 /* Spot Leads */;
+			targetProxy = 42DB2F972890299500820CD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42DB2F9E2890299500820CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42DB2F9F2890299500820CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42DB2FA12890299500820CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spot Leads/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X7BXGL6B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to pass speech commands to Spot";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "View live text transcription of your commands in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-Leads";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42DB2FA22890299500820CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spot Leads/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X7BXGL6B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to pass speech commands to Spot";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "View live text transcription of your commands in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-Leads";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42DB2FA42890299500820CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-LeadsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spot Leads.app/Spot Leads";
+			};
+			name = Debug;
+		};
+		42DB2FA52890299500820CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-LeadsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spot Leads.app/Spot Leads";
+			};
+			name = Release;
+		};
+		42DB2FA72890299500820CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-LeadsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spot Leads";
+			};
+			name = Debug;
+		};
+		42DB2FA82890299500820CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "INSITE.Spot-LeadsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spot Leads";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DB2F772890299200820CD3 /* Build configuration list for PBXProject "Spot Leads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB2F9E2890299500820CD3 /* Debug */,
+				42DB2F9F2890299500820CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DB2FA02890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot Leads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB2FA12890299500820CD3 /* Debug */,
+				42DB2FA22890299500820CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DB2FA32890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot LeadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB2FA42890299500820CD3 /* Debug */,
+				42DB2FA52890299500820CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DB2FA62890299500820CD3 /* Build configuration list for PBXNativeTarget "Spot LeadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DB2FA72890299500820CD3 /* Debug */,
+				42DB2FA82890299500820CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42DB2F742890299200820CD3 /* Project object */;
+}
