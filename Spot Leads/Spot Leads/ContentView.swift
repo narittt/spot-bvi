@@ -14,10 +14,17 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack {
-                if speech.transcript.contains("Spot") {
-                    Text("ello mate")
-                } else {
-                    Text("Spot not found")
+                if speech.transcript.contains("Hey spot go forward") {
+                    Text("Spot going forward")
+                } else if speech.transcript.contains("Hey spot go backward") {
+                    Text("Spot going backward")
+                } else if speech.transcript.contains("Hey spot go left") {
+                    Text("Spot going left")
+                } else if speech.transcript.contains("Hey spot go right") {
+                    Text("Spot going right")
+                }
+                else {
+                    Text("No valid command")
                 }
             }
             VStack {
